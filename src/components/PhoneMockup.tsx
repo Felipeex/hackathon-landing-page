@@ -31,7 +31,7 @@ export function PhoneMockup() {
     },
     { text: "Sim, pode confirmar!", isBot: false },
     {
-      text: "🎉 **Confirmado!**\n\n✅ Maria será sua faxineira amanhã\n📱 Ela vai te ligar em 5 minutos\n💰 R$ 80,00 (pagamento após serviço)\n\n📞 Qualquer dúvida, é só chamar!\n\n*Obrigado por usar o Trampolin!* 😊",
+      text: "🎉 Confirmado!\n\n✅ Maria será sua faxineira amanhã\n📱 Ela vai te ligar em 5 minutos\n💰 R$ 80,00 (pagamento após serviço)\n\n📞 Qualquer dúvida, é só chamar!\n\n*Obrigado por usar o Trampolin!* 😊",
       isBot: true,
     },
   ];
