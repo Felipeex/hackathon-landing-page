@@ -7,18 +7,20 @@ import DifferentialsSection from "@/components/DifferentialsSection";
 import ImpactSection from "@/components/ImpactSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import { HowToUseSection } from "@/components/HowTouseSection";
 
 export function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <HeroSection />
-      <ProblemSection />
+      <HowToUseSection />
+      {/*       <ProblemSection />
       <SolutionSection />
       <MarketSection />
       <DifferentialsSection />
       <ImpactSection />
-      <CTASection />
+      <CTASection /> */}
       <Footer />
     </div>
   );

@@ -1,7 +1,7 @@
 import { MessageCircle, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import TrampolinLogo from "@/assets/logo.png";
+import TrampolinLogo from "@/assets/logo.svg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
