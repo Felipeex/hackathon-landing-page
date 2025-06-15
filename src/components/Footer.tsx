@@ -1,4 +1,4 @@
-import { MessageCircle, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 import TrampolinLogo from "@/assets/logo.svg";
 
 const Footer = () => {
@@ -7,7 +7,6 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-            {/* Logo and Description */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 <img src={TrampolinLogo} alt="Trampolin Logo" />
@@ -23,7 +22,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Product */}
             <div>
               <h3 className="font-semibold text-foreground mb-4">Produto</h3>
               <ul className="space-y-2 text-muted-foreground">
@@ -62,7 +60,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Company */}
             <div>
               <h3 className="font-semibold text-foreground mb-4">Empresa</h3>
               <ul className="space-y-2 text-muted-foreground">
@@ -102,7 +99,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Bottom */}
           <div className="border-t border-border pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-sm text-muted-foreground mb-4 md:mb-0">
