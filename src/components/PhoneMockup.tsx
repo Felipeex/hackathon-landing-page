@@ -21,12 +21,12 @@ export function PhoneMockup() {
     },
     { text: "São Paulo, Vila Olimpia. Para amanhã de manhã", isBot: false },
     {
-      text: "Ótimo! 👍 Encontrei 3 faxineiras disponíveis para amanhã na Vila Olimpia:\n\n👩 **Maria - ⭐ 4.9**\n💰 R$ 80,00 (4h)\n✅ Disponível 8h às 12h\n\n👩 **Ana - ⭐ 4.8**\n💰 R$ 75,00 (4h)\n✅ Disponível 9h às 13h\n\n👩 **Carla - ⭐ 5.0**\n💰 R$ 90,00 (4h)\n✅ Disponível 7h às 11h\n\nQual você gostaria de contratar?",
+      text: "Ótimo! 👍 Encontrei 3 faxineiras disponíveis para amanhã na Vila Olimpia:\n\n👩 Maria - ⭐ 4.9\n💰 R$ 80,00 (4h)\n✅ Disponível 8h às 12h\n\n👩 Ana - ⭐ 4.8\n💰 R$ 75,00 (4h)\n✅ Disponível 9h às 13h\n\n👩 Carla - ⭐ 5.0\n💰 R$ 90,00 (4h)\n✅ Disponível 7h às 11h\n\nQual você gostaria de contratar?",
       isBot: true,
     },
     { text: "A Maria parece boa. Como funciona?", isBot: false },
     {
-      text: "Perfeita escolha! ✨ A Maria tem ótimas avaliações.\n\n📋 **Próximos passos:**\n1. Confirmo com a Maria\n2. Ela entra em contato contigo\n3. Vocês acertam os detalhes\n4. Pagamento só após o serviço\n\n💬 Posso confirmar para você?",
+      text: "Perfeita escolha! ✨ A Maria tem ótimas avaliações.\n\n📋 Próximos passos:\n1. Confirmo com a Maria\n2. Ela entra em contato contigo\n3. Vocês acertam os detalhes\n4. Pagamento só após o serviço\n\n💬 Posso confirmar para você?",
       isBot: true,
     },
     { text: "Sim, pode confirmar!", isBot: false },
