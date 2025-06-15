@@ -40,7 +40,7 @@ const HowItWorksEmployers = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white" id="howItWorks">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -75,7 +75,6 @@ const HowItWorksEmployers = () => {
           ))}
         </div>
 
-        {/* Trust badges */}
         <div className="mt-16 bg-gray-50 rounded-2xl p-8">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-foreground mb-2">

@@ -24,28 +24,22 @@ const Header = () => {
 
           <nav className="hidden md:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection("problema")}
+              onClick={() => scrollToSection("services")}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              O Problema
+              Serviços
             </button>
             <button
-              onClick={() => scrollToSection("solucao")}
+              onClick={() => scrollToSection("howItWorks")}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Nossa Solução
+              Como usar
             </button>
             <button
-              onClick={() => scrollToSection("numeros")}
+              onClick={() => scrollToSection("testimonials")}
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Mercado
-            </button>
-            <button
-              onClick={() => scrollToSection("impacto")}
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Impacto
+              Avaliações
             </button>
           </nav>
 
@@ -65,28 +59,22 @@ const Header = () => {
           <nav className="md:hidden mt-4 py-4 border-t border-border">
             <div className="flex flex-col space-y-4">
               <button
-                onClick={() => scrollToSection("problema")}
+                onClick={() => scrollToSection("services")}
                 className="text-left text-muted-foreground hover:text-foreground transition-colors"
               >
-                O Problema
+                Serviços
               </button>
               <button
-                onClick={() => scrollToSection("solucao")}
+                onClick={() => scrollToSection("howItWorks")}
                 className="text-left text-muted-foreground hover:text-foreground transition-colors"
               >
-                Nossa Solução
+                Como usar
               </button>
               <button
-                onClick={() => scrollToSection("numeros")}
+                onClick={() => scrollToSection("testimonials")}
                 className="text-left text-muted-foreground hover:text-foreground transition-colors"
               >
-                Mercado
-              </button>
-              <button
-                onClick={() => scrollToSection("impacto")}
-                className="text-left text-muted-foreground hover:text-foreground transition-colors"
-              >
-                Impacto
+                Avaliações
               </button>
             </div>
           </nav>

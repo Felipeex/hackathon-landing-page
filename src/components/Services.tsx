@@ -67,7 +67,7 @@ const MockServices = [
 
 export function Services() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50" id="services">
       <div className="container mx-auto px-4 flex flex-col">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
