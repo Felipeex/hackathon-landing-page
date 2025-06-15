@@ -116,7 +116,7 @@ const TestimonialsEmployers = () => {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center">
+        <div className="mt-16 bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-8 text-white text-center">
           <div className="grid md:grid-cols-4 gap-6">
             <div>
               <div className="text-3xl font-bold mb-2">98%</div>
