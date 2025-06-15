@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Bot } from "lucide-react";
+import { Trampolin } from "./svg/Trampolin";
 
 interface Message {
   id: number;
@@ -74,12 +75,11 @@ export function PhoneMockup() {
         >
           <div className="bg-green-600 px-4 py-3 flex items-center space-x-3">
             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center">
-              <Bot className="w-6 h-6 text-white" />
+              <Trampolin fill="white" className="size-6" />
+              {/* <Bot className="w-6 h-6 text-white" /> */}
             </div>
             <div className="flex-1">
-              <div className="text-white font-semibold">
-                Trampolin Contratação
-              </div>
+              <div className="text-white font-semibold">Trampolin</div>
               <div className="text-green-200 text-xs flex items-center">
                 <div className="w-2 h-2 bg-green-300 rounded-full mr-1"></div>
                 online
@@ -104,7 +104,8 @@ export function PhoneMockup() {
                 >
                   {message.isBot && (
                     <div className="flex items-center mb-1">
-                      <Bot className="w-4 h-4 mr-1 text-green-600" />
+                      <Trampolin fill="#16a34a" className="w-4 h-4 mr-1" />
+                      {/* <Bot className="w-4 h-4 mr-1 text-green-600" /> */}
                       <span className="text-xs text-green-600 font-medium">
                         Trampolin
                       </span>
@@ -130,6 +131,7 @@ export function PhoneMockup() {
                 <div className="flex justify-start animate-fade-in">
                   <div className="bg-white px-4 py-2 rounded-2xl shadow-sm">
                     <div className="flex items-center space-x-1">
+                      {/* <Trampolin fill="#16a34a" className="w-4 h-4" /> */}
                       <Bot className="w-4 h-4 text-green-600" />
                       <div className="flex space-x-1">
                         <div className="w-2 h-2 bg-gray-400 rounded-full animate-bounce"></div>
