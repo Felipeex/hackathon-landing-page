@@ -20,7 +20,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-8">
-              <div className="text-center">
+              <div className="text-center flex flex-col items-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-green-100 rounded-full mb-2 mx-auto lg:mx-0">
                   <Users className="w-6 h-6 text-green-600" />
                 </div>
@@ -29,7 +29,7 @@ const HeroSection = () => {
                   Trabalhadores ativos
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center flex flex-col items-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-green-100 rounded-full mb-2 mx-auto lg:mx-0">
                   <Clock className="w-6 h-6 text-green-600" />
                 </div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
                   Tempo de resposta
                 </div>
               </div>
-              <div className="text-center">
+              <div className="text-center flex flex-col items-center">
                 <div className="flex items-center justify-center w-12 h-12 bg-purple-100 rounded-full mb-2 mx-auto lg:mx-0">
                   <Shield className="w-6 h-6 text-purple-600" />
                 </div>
@@ -57,15 +57,9 @@ const HeroSection = () => {
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span className="text-muted-foreground">
-                  Trabalhadores verificados e avaliados
-                </span>
-              </div>
-              <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
                 <span className="text-muted-foreground">
-                  Você só paga se ficar satisfeito
+                  Trabalhadores avaliados
                 </span>
               </div>
             </div>
