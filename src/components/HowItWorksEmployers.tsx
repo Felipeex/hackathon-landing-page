@@ -13,7 +13,7 @@ const HowItWorksEmployers = () => {
       icon: Search,
       title: "2. Receba opções",
       description:
-        "Nosso bot vai indicar trabalhadores disponíveis na sua região,",
+        "Nosso bot vai indicar trabalhadores disponíveis na sua região.",
       color: "green",
     },
     {
