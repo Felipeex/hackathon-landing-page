@@ -47,12 +47,6 @@ const Header = () => {
             >
               Impacto
             </button>
-            <Button
-              onClick={() => scrollToSection("contato")}
-              className="bg-primary hover:bg-primary/90"
-            >
-              Fale Conosco
-            </Button>
           </nav>
 
           <button
@@ -94,12 +88,6 @@ const Header = () => {
               >
                 Impacto
               </button>
-              <Button
-                onClick={() => scrollToSection("contato")}
-                className="bg-primary hover:bg-primary/90 w-fit"
-              >
-                Fale Conosco
-              </Button>
             </div>
           </nav>
         )}

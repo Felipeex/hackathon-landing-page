@@ -1,16 +1,14 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import Footer from "@/components/Footer";
-import { HowToUseSection } from "@/components/HowToUseSection";
-import { HowItWork } from "@/components/HowItWork";
+import { Services } from "@/components/Services";
 
 export function Home() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <Header />
       <HeroSection />
-      <HowItWork />
-      <HowToUseSection />
+      <Services />
       <Footer />
     </div>
   );
