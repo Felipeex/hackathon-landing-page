@@ -4,7 +4,7 @@ import { PhoneMockup } from "./PhoneMockup";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-green-50 to-purple-50 flex items-center py-12">
+    <section className="min-h-screen bg-gradient-to-br from-green-50 to-purple-50 flex items-center py-24">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left space-y-8">
