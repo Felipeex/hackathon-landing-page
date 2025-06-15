@@ -53,9 +53,17 @@ const HeroSection = () => {
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <span className="text-muted-foreground">
-                  Sem cadastro complicado - só pelo WhatsApp
+                  Sem cadastro e custo para anunciar
                 </span>
               </div>
+
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <span className="text-muted-foreground">
+                  Basta dar um “oi” no WhatsApp
+                </span>
+              </div>
+
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
                 <span className="text-muted-foreground">
@@ -72,9 +80,6 @@ const HeroSection = () => {
                 <MessageSquare className="w-5 h-5 mr-2" />
                 Encontrar ajuda agora
               </Button>
-              <p className="text-sm text-muted-foreground">
-                Gratuito para postar • Pagamento apenas após conclusão
-              </p>
             </div>
           </div>
 
